@@ -46,3 +46,18 @@ SET row_security = off;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
+
+REATE TABLE public.galaxy (
+    galaxy_id integer NOT NULL,
+    name character varying(255),
+    description text,
+    has_life boolean NOT NULL,
+    is_spherical boolean NOT NULL,
+    age_in_millions integer,
+    distance_in_miles integer,
+    multiverse numeric,
+    f_id integer NOT NULL
+);
+
+
+ALTER TABLE public.galaxy OWNER TO freecodecamp;
