@@ -55,7 +55,7 @@ REATE TABLE public.galaxy (
     is_spherical boolean NOT NULL,
     age_in_millions integer,
     distance_in_miles integer,
-    multiverse numeric,
+    multiverses numeric,
     f_id integer NOT NULL
 );
 
