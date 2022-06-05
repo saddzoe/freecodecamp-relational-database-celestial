@@ -101,3 +101,29 @@ CREATE SEQUENCE public.galaxy_galaxy_id_seq
 
 ALTER TABLE public.galaxy_galaxy_id_seq OWNER TO freecodecamp;
 
+
+--
+-- Name: galaxy_galaxy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
+--
+
+ALTER SEQUENCE public.galaxy_galaxy_id_seq OWNED BY public.galaxy.galaxy_id;
+
+
+--
+-- Name: meteor; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.meteor (
+    meteor_id integer NOT NULL,
+    name character varying(255),
+    description text,
+    has_life boolean NOT NULL,
+    is_spherical boolean,
+    age integer,
+    distance integer,
+    multiverse numeric,
+    f_id integer NOT NULL
+);
+
+
+ALTER TABLE public.meteor OWNER TO freecodecamp;
