@@ -154,4 +154,4 @@ ALTER TABLE public.meteor_meteor_id_seq OWNER TO freecodecamp;
 -- Name: meteor_meteor_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
 --
 
-ALTER SEQUENCE public.meteor_meteor_id_seq OWNED BY public.meteor.meteor_id'
+ALTER SEQUENCE public.meteor_meteor_id_seq OWNED BY public.meteor.meteor_id;
