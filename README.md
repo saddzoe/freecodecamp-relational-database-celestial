@@ -129,10 +129,17 @@ CREATE TABLE public.meteor (
 ALTER TABLE public.meteor OWNER TO freecodecamp;
 
 --
--- Name: meteor_foreign_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+-- Name: meteor_foreign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
 --
 
-CREATE SEQUENCE public.meteor_foreign_id_seq
+ALTER SEQUENCE public.meteor_foreign_id_seq OWNED BY public.meteor.f_id;
+
+
+--
+-- Name: meteor_meteor_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.meteor_meteor_id_seq
     AS integer
     START WITH 1
     INCREMENT BY 1
@@ -141,6 +148,10 @@ CREATE SEQUENCE public.meteor_foreign_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.meteor_foreign_id_seq OWNER TO freecodecamp;
+ALTER TABLE public.meteor_meteor_id_seq OWNER TO freecodecamp;
 
+--
+-- Name: meteor_meteor_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
+--
 
+ALTER SEQUENCE public.meteor_meteor_id_seq OWNED BY public.meteor.meteor_id'
