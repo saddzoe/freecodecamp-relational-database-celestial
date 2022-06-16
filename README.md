@@ -155,3 +155,23 @@ ALTER TABLE public.meteor_meteor_id_seq OWNER TO freecodecamp;
 --
 
 ALTER SEQUENCE public.meteor_meteor_id_seq OWNED BY public.meteor.meteor_id;
+
+
+--
+-- Name: moon; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.moon (
+    moon_id integer NOT NULL,
+    name character varying(255),
+    description text,
+    has_life boolean NOT NULL,
+    is_spherical boolean NOT NULL,
+    age integer,
+    distance integer,
+    multiverse numeric,
+    f_id integer NOT NULL
+);
+
+
+ALTER TABLE public.moon OWNER TO freecodecamp;
