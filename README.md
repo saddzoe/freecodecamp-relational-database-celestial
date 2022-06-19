@@ -175,3 +175,18 @@ CREATE TABLE public.moon (
 
 
 ALTER TABLE public.moon OWNER TO freecodecamp;
+
+--
+-- Name: moon_foreign_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.moon_foreign_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.moon_foreign_id_seq OWNER TO freecodecamp; something next
