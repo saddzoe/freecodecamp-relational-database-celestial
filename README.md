@@ -190,3 +190,25 @@ CREATE SEQUENCE public.moon_foreign_id_seq
 
 
 ALTER TABLE public.moon_foreign_id_seq OWNER TO freecodecamp; something next
+
+--
+-- Name: moon_foreign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
+--
+
+ALTER SEQUENCE public.moon_foreign_id_seq OWNED BY public.moon.f_id;
+
+
+--
+-- Name: moon_moon_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.moon_moon_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.moon_moon_id_seq OWNER TO freecodecamp;
