@@ -212,3 +212,29 @@ CREATE SEQUENCE public.moon_moon_id_seq
 
 
 ALTER TABLE public.moon_moon_id_seq OWNER TO freecodecamp;
+
+--
+-- Name: moon_moon_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
+--
+
+ALTER SEQUENCE public.moon_moon_id_seq OWNED BY public.moon.moon_id;
+
+
+--
+-- Name: planet; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.planet (
+    planet_id integer NOT NULL,
+    name_of_planet character varying(255),
+    description_of_planet text,
+    has_life_or_not boolean NOT NULL,
+    is_spherical_or_not boolean NOT NULL,
+    age integer,
+    distance integer,
+    multiverse numeric,
+    f_id integer NOT NULL
+);
+
+
+ALTER TABLE public.planet OWNER TO freecodecamp;
