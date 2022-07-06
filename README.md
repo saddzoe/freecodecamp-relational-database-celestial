@@ -280,3 +280,37 @@ ALTER TABLE public.planet_planet_id_seq OWNER TO freecodecamp;
 --
 
 ALTER SEQUENCE public.planet_planet_id_seq OWNED BY public.planet.planet_id;
+
+--
+-- Name: star; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.star (
+    star_id integer NOT NULL,
+    name_of_thing character varying(255),
+    description_of_thing text,
+    has_life_or_not boolean NOT NULL,
+    is_spherical_or_not boolean NOT NULL,
+    age_of_thing integer,
+    distance_of_thing integer,
+    multiverse_or_not numeric,
+    f_id integer NOT NULL
+);
+
+
+ALTER TABLE public.star OWNER TO freecodecamp;
+
+--
+-- Name: star_foreign_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.star_foreign_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.star_foreign_id_seq OWNER TO freecodecamp;
