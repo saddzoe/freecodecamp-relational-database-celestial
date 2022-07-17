@@ -356,3 +356,18 @@ ALTER TABLE ONLY public.galaxy ALTER COLUMN galaxy_id SET DEFAULT nextval('publi
 --
 
 
+ALTER TABLE ONLY public.galaxy ALTER COLUMN f_id SET DEFAULT nextval('public.galaxy_foreign_id_seq'::regclass);
+
+
+--
+-- Name: meteor meteor_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.meteor ALTER COLUMN meteor_id SET DEFAULT nextval('public.meteor_meteor_id_seq'::regclass);
+
+
+--
+-- Name: meteor f_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.meteor ALTER COLUMN f_id SET DEFAULT nextval('public.meteor_foreign_id_seq'::regclass);
