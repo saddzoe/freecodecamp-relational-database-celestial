@@ -371,3 +371,24 @@ ALTER TABLE ONLY public.meteor ALTER COLUMN meteor_id SET DEFAULT nextval('publi
 --
 
 ALTER TABLE ONLY public.meteor ALTER COLUMN f_id SET DEFAULT nextval('public.meteor_foreign_id_seq'::regclass);
+
+
+--
+-- Name: moon moon_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.moon ALTER COLUMN moon_id SET DEFAULT nextval('public.moon_moon_id_seq'::regclass);
+
+
+--
+-- Name: moon f_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.moon ALTER COLUMN f_id SET DEFAULT nextval('public.moon_foreign_id_seq'::regclass);
+
+
+--
+-- Name: planet planet_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.planet ALTER COLUMN planet_id SET DEFAULT nextval('public.planet_planet_id_seq'::regclass);
