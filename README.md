@@ -407,3 +407,23 @@ ALTER TABLE ONLY public.planet ALTER COLUMN f_id SET DEFAULT nextval('public.pla
 
 ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.star_star_id_seq'::regclass);
 
+
+--
+-- Name: star f_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.star ALTER COLUMN f_id SET DEFAULT nextval('public.star_foreign_id_seq'::regclass);
+
+
+--
+-- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.galaxy VALUES (1, 'Milky Way', 'The one everyone knows', false, true, 7434, 93, 3, 1);
+INSERT INTO public.galaxy VALUES (2, 'Andromeda', 'This another famous one', true, false, 742, 924, 23, 2);
+INSERT INTO public.galaxy VALUES (3, 'Misser 96', 'This is a new one I just found out about', false, true, 45, 323, 2, 33);
+INSERT INTO public.galaxy VALUES (4, 'Black Eye', 'The major swirl in the middle', true, true, 943, 71, 633, 45);
+INSERT INTO public.galaxy VALUES (5, 'Tadpole', 'The straight shooter no chaser', true, false, 88, 37, 63, 45);
+INSERT INTO public.galaxy VALUES (6, 'Pinwheel', 'This one goes round and round and doesn't stop', true, true, 86, 664, 75, 6);
+INSERT INTO public.galaxy VALUES (7, 'Comet', 'Might be Halleys or not', true, false, 976, 45, 9, 7);
+INSERT INTO public.galaxy VALUES (8, 'Sombreo galaxy', 'This looks like a sombreo or a hat from the south', true, true, 77, 32, 6, 8);
