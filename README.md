@@ -427,3 +427,5 @@ INSERT INTO public.galaxy VALUES (5, 'Tadpole', 'The straight shooter no chaser'
 INSERT INTO public.galaxy VALUES (6, 'Pinwheel', 'This one goes round and round and doesn't stop', true, true, 86, 664, 75, 6);
 INSERT INTO public.galaxy VALUES (7, 'Comet', 'Might be Halleys or not', true, false, 976, 45, 9, 7);
 INSERT INTO public.galaxy VALUES (8, 'Sombreo galaxy', 'This looks like a sombreo or a hat from the south', true, true, 77, 32, 6, 8);
+
+
