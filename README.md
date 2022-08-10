@@ -429,3 +429,11 @@ INSERT INTO public.galaxy VALUES (7, 'Comet', 'Might be Halleys or not', true, f
 INSERT INTO public.galaxy VALUES (8, 'Sombreo galaxy', 'This looks like a sombreo or a hat from the south', true, true, 77, 32, 6, 8);
 
 
+--
+-- Data for Name: meteor; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.meteor VALUES (1, 'Halley Comet the one everyone wants to see', 'This is a famous one and well known', false, false, 96, 25, 32, 3);
+INSERT INTO public.meteor VALUES (2, 'Big dipper not the little one', 'This is another famous one and well renown', true, true, 353, 49, 4, 32);
+INSERT INTO public.meteor VALUES (3, 'Little Dipper not the big one', 'The small one but don't sleep on it or take it for granted', true, false, 45, 74, 324, 3);
+INSERT INTO public.meteor VALUES (4, 'Aqua or the blue one', 'This is shaped like a man not anything else', true, true, 65, 56, 78, 5);
