@@ -437,3 +437,37 @@ INSERT INTO public.meteor VALUES (1, 'Halley Comet the one everyone wants to see
 INSERT INTO public.meteor VALUES (2, 'Big dipper not the little one', 'This is another famous one and well renown', true, true, 353, 49, 4, 32);
 INSERT INTO public.meteor VALUES (3, 'Little Dipper not the big one', 'The small one but don't sleep on it or take it for granted', true, false, 45, 74, 324, 3);
 INSERT INTO public.meteor VALUES (4, 'Aqua or the blue one', 'This is shaped like a man not anything else', true, true, 65, 56, 78, 5);
+
+--
+-- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.moon VALUES (1, 'Moon', 'Everyone knows this one, you know the big dawg', true, false, 483, 83, 44, 3);
+INSERT INTO public.moon VALUES (2, 'Europa', 'This is a famous one I think', true, true, 505, 98, 2, 4);
+INSERT INTO public.moon VALUES (3, 'Ganymede', 'This one is out there and not close', false, false, 53, 925, 9, 2);
+INSERT INTO public.moon VALUES (4, 'Io', 'This is a new one and never heard of', true, true, 923, 872, 3, 4);
+INSERT INTO public.moon VALUES (5, 'Mimas', 'Another new one or maybe', true, true, 7523, 943, 8, 53);
+INSERT INTO public.moon VALUES (6, 'Thebe', 'This is far too', true, false, 24, 50, 32, 8);
+INSERT INTO public.moon VALUES (7, 'Amalthea', 'This is so pretty', true, false, 8, 83, 236, 4);
+INSERT INTO public.moon VALUES (8, 'Carme', 'This is alot to take in', false, true, 8308, 7466, 85, 8);
+INSERT INTO public.moon VALUES (9, 'Himilia', 'This is a big one', false, false, 554, 483, 8, 9);
+INSERT INTO public.moon VALUES (10, 'Dione', 'Pretty name with good colors', false, true, 93, 445, 36, 101);
+INSERT INTO public.moon VALUES (11, 'Ainite', 'It is out there and not coming in', false, false, 844, 54, 29, 13);
+INSERT INTO public.moon VALUES (12, 'Elara', 'Another pretty name you already know', false, true, 94, 853, 22, 15);
+
+INSERT INTO public.moon VALUES (13, 'Harry', 'From the potter', false, false, 235, 837, 3882, 13);
+INSERT INTO public.moon VALUES (14, 'Hermippe', 'This is out there too', false, true, 892, 350, 63, 14);
+INSERT INTO public.moon VALUES (15, 'Aoede', 'This is a new one too', false, false, 9024, 5498, 2, 15);
+INSERT INTO public.moon VALUES (16, 'Heike', 'This is spaced out', false, true, 964, 92, 346, 16);
+INSERT INTO public.moon VALUES (17, 'Carpo', 'This out there with you', true, true, 9723, 56, 23, 17);
+INSERT INTO public.moon VALUES (18, 'Kalyke', 'This is around empty', true, true, 47, 77, 5, 18);
+INSERT INTO public.moon VALUES (19, 'Tethys', 'Looks familiar', false, true, 679, 59, 18, 19);
+INSERT INTO public.moon VALUES (20, 'Herse', 'This is different', false, true, 721, 1353, 19, 20);
+INSERT INTO public.moon VALUES (24, 'Cyliene', 'This one is red', false, true, 194, 200, 8, 24);
+INSERT INTO public.moon VALUES (25, 'Eirene', 'Might be split into two', true, false, 104, 34, 698, 25);
+INSERT INTO public.moon VALUES (26, 'Eukelade', 'This is empty kinda', true, true, 971, 846, 4503, 26);
+INSERT INTO public.moon VALUES (27, 'Titan', 'This is the one', true, true, 7432, 3085, 32, 27);
+INSERT INTO public.moon VALUES (32, 'Harpo', 'I have been fighting all my life head ass', true, false, 3847, 549, 3, 32);
+INSERT INTO public.moon VALUES (33, 'Sinope', 'More like empty space', true, false, 65, 84, 4, 33);
+INSERT INTO public.moon VALUES (34, 'Megacite', 'Not that mega', false, false, 9409, 92, 84, 34);
+INSERT INTO public.moon VALUES (35, 'Charon', 'Very pretty', false, true, 8321, 66, 751, 35);
