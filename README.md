@@ -454,17 +454,17 @@ INSERT INTO public.moon VALUES (9, 'Himilia', 'This is a big one', false, false,
 INSERT INTO public.moon VALUES (10, 'Dione', 'Pretty name with good colors', false, true, 93, 445, 36, 101);
 INSERT INTO public.moon VALUES (11, 'Ainite', 'It is out there and not coming in', false, false, 844, 54, 29, 13);
 INSERT INTO public.moon VALUES (12, 'Elara', 'Another pretty name you already know', false, true, 94, 853, 22, 15);
+INSERT INTO public.moon VALUES (13, 'Harry', 'From the potter or maybe not from the potter', true, false, 35, 4837, 882, 14);
+INSERT INTO public.moon VALUES (14, 'Hermippe', 'This is out there too and no where close', false, false, 992, 450, 66, 4);
+INSERT INTO public.moon VALUES (15, 'Aoede', 'This is a new one too and never had heard of', false, false, 24, 548, 5, 25);
+INSERT INTO public.moon VALUES (16, 'Heike', 'This is spaced out and out throught there', true, true, 955, 90, 35, 11);
+INSERT INTO public.moon VALUES (17, 'Carpo', 'This out there with you or someone else who knows', false, true, 983, 6, 3, 19);
+INSERT INTO public.moon VALUES (18, 'Kalyke', 'This one gets around', true, false, 47, 37, 7, 20);
+INSERT INTO public.moon VALUES (19, 'Tethys', 'Looks interesting', true, true, 92, 597, 20, 18);
+INSERT INTO public.moon VALUES (20, 'Herse', 'This one maybe one of those ones', false, false, 757, 165, 18, 35);
+INSERT INTO public.moon VALUES (24, 'Cyliene', 'This one is red and a very bright red and did I say bright', false, true, 195, 235, 94, 25);
+INSERT INTO public.moon VALUES (25, 'Eirene', 'This one looks as if it could be split between two or maybe even three', true, ture, 119, 14, 49, 25);
 
-INSERT INTO public.moon VALUES (13, 'Harry', 'From the potter', false, false, 235, 837, 3882, 13);
-INSERT INTO public.moon VALUES (14, 'Hermippe', 'This is out there too', false, true, 892, 350, 63, 14);
-INSERT INTO public.moon VALUES (15, 'Aoede', 'This is a new one too', false, false, 9024, 5498, 2, 15);
-INSERT INTO public.moon VALUES (16, 'Heike', 'This is spaced out', false, true, 964, 92, 346, 16);
-INSERT INTO public.moon VALUES (17, 'Carpo', 'This out there with you', true, true, 9723, 56, 23, 17);
-INSERT INTO public.moon VALUES (18, 'Kalyke', 'This is around empty', true, true, 47, 77, 5, 18);
-INSERT INTO public.moon VALUES (19, 'Tethys', 'Looks familiar', false, true, 679, 59, 18, 19);
-INSERT INTO public.moon VALUES (20, 'Herse', 'This is different', false, true, 721, 1353, 19, 20);
-INSERT INTO public.moon VALUES (24, 'Cyliene', 'This one is red', false, true, 194, 200, 8, 24);
-INSERT INTO public.moon VALUES (25, 'Eirene', 'Might be split into two', true, false, 104, 34, 698, 25);
 INSERT INTO public.moon VALUES (26, 'Eukelade', 'This is empty kinda', true, true, 971, 846, 4503, 26);
 INSERT INTO public.moon VALUES (27, 'Titan', 'This is the one', true, true, 7432, 3085, 32, 27);
 INSERT INTO public.moon VALUES (32, 'Harpo', 'I have been fighting all my life head ass', true, false, 3847, 549, 3, 32);
