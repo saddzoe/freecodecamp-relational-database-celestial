@@ -464,10 +464,9 @@ INSERT INTO public.moon VALUES (19, 'Tethys', 'Looks interesting', true, true, 9
 INSERT INTO public.moon VALUES (20, 'Herse', 'This one maybe one of those ones', false, false, 757, 165, 18, 35);
 INSERT INTO public.moon VALUES (24, 'Cyliene', 'This one is red and a very bright red and did I say bright', false, true, 195, 235, 94, 25);
 INSERT INTO public.moon VALUES (25, 'Eirene', 'This one looks as if it could be split between two or maybe even three', true, ture, 119, 14, 49, 25);
-
-INSERT INTO public.moon VALUES (26, 'Eukelade', 'This is empty kinda', true, true, 971, 846, 4503, 26);
-INSERT INTO public.moon VALUES (27, 'Titan', 'This is the one', true, true, 7432, 3085, 32, 27);
-INSERT INTO public.moon VALUES (32, 'Harpo', 'I have been fighting all my life head ass', true, false, 3847, 549, 3, 32);
-INSERT INTO public.moon VALUES (33, 'Sinope', 'More like empty space', true, false, 65, 84, 4, 33);
-INSERT INTO public.moon VALUES (34, 'Megacite', 'Not that mega', false, false, 9409, 92, 84, 34);
-INSERT INTO public.moon VALUES (35, 'Charon', 'Very pretty', false, true, 8321, 66, 751, 35);
+INSERT INTO public.moon VALUES (26, 'Eukelade', 'One that is not full', true, false, 97, 46, 453, 25);
+INSERT INTO public.moon VALUES (27, 'Titan', 'This is a gargatuan one', false, true, 72, 308, 83, 24);
+INSERT INTO public.moon VALUES (32, 'Harpo', 'I have been fighting all my life head ass rofl', false, false, 3847, 549, 3, 32);
+INSERT INTO public.moon VALUES (33, 'Sinope', 'Another empty space', true, true, 25, 24, 3, 36);
+INSERT INTO public.moon VALUES (34, 'Megacite', 'Not that mega at all more like reggie', false, ture, 58, 23, 8, 20);
+INSERT INTO public.moon VALUES (35, 'Charon', 'Very pretty and outstanding', true, ture, 855, 44, 173, 33);
