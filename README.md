@@ -470,3 +470,21 @@ INSERT INTO public.moon VALUES (32, 'Harpo', 'I have been fighting all my life h
 INSERT INTO public.moon VALUES (33, 'Sinope', 'Another empty space', true, true, 25, 24, 3, 36);
 INSERT INTO public.moon VALUES (34, 'Megacite', 'Not that mega at all more like reggie', false, ture, 58, 23, 8, 20);
 INSERT INTO public.moon VALUES (35, 'Charon', 'Very pretty and outstanding', true, ture, 855, 44, 173, 33);
+
+--
+-- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.planet VALUES (1, 'Jupiter', 'One of those ones you alreday know', true, true, 93, 28, 42, 1);
+INSERT INTO public.planet VALUES (2, 'Saturn', 'The big dawg and old too that father energy', false, true, 85, 985, 3, 7);
+INSERT INTO public.planet VALUES (3, 'Venus', 'Bring me those fortunes and may they never stop', true, true, 23, 91, 8, 3);
+INSERT INTO public.planet VALUES (4, 'Pluto', 'The little dawg and still a planet in my eyes', false, true, 55, 624, 72, 4);
+INSERT INTO public.planet VALUES (5, 'Mars', 'The warlord always strapped and ready', true, false, 822, 77, 91, 7);
+INSERT INTO public.planet VALUES (6, 'Mercury', 'Not the maurder but the real one', true, false, 825, 98, 9, 4);
+INSERT INTO public.planet VALUES (7, 'Neptune', 'The lovely one and maybe fair', false, false, 35, 78, 96, 7);
+
+INSERT INTO public.planet VALUES (8, 'Earth', 'The famous one', true, true, 9854, 852, 3, 8);
+INSERT INTO public.planet VALUES (9, 'Uranus', 'The interesitng one', true, true, 643, 593, 63, 9);
+INSERT INTO public.planet VALUES (10, 'Harry', 'Made up one', false, true, 654, 93, 397, 10);
+INSERT INTO public.planet VALUES (11, 'Ceres', 'The tempting one', true, true, 75, 33, 2, 11);
+INSERT INTO public.planet VALUES (12, 'Charon', 'Might be a moon', false, true, 893, 64, 45, 12);
