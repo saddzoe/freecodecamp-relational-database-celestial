@@ -482,9 +482,8 @@ INSERT INTO public.planet VALUES (4, 'Pluto', 'The little dawg and still a plane
 INSERT INTO public.planet VALUES (5, 'Mars', 'The warlord always strapped and ready', true, false, 822, 77, 91, 7);
 INSERT INTO public.planet VALUES (6, 'Mercury', 'Not the maurder but the real one', true, false, 825, 98, 9, 4);
 INSERT INTO public.planet VALUES (7, 'Neptune', 'The lovely one and maybe fair', false, false, 35, 78, 96, 7);
-
-INSERT INTO public.planet VALUES (8, 'Earth', 'The famous one', true, true, 9854, 852, 3, 8);
-INSERT INTO public.planet VALUES (9, 'Uranus', 'The interesitng one', true, true, 643, 593, 63, 9);
-INSERT INTO public.planet VALUES (10, 'Harry', 'Made up one', false, true, 654, 93, 397, 10);
-INSERT INTO public.planet VALUES (11, 'Ceres', 'The tempting one', true, true, 75, 33, 2, 11);
-INSERT INTO public.planet VALUES (12, 'Charon', 'Might be a moon', false, true, 893, 64, 45, 12);
+INSERT INTO public.planet VALUES (8, 'Earth', 'The famous one and one we are on', false, true, 3, 86, 5, 8);
+INSERT INTO public.planet VALUES (9, 'Uranus', 'The interesitng one and maybe the most verstaile', true, true, 653, 503, 63, 7);
+INSERT INTO public.planet VALUES (10, 'Harry', 'Made up one and not real', false, true, 64, 335, 35, 10);
+INSERT INTO public.planet VALUES (11, 'Ceres', 'The tempting and alluring one', true, false, 71, 37, 2, 17);
+INSERT INTO public.planet VALUES (12, 'Charon', 'Might be a moon or maybe even galaxy', false, false, 85, 61, 2, 19);
