@@ -487,3 +487,15 @@ INSERT INTO public.planet VALUES (9, 'Uranus', 'The interesitng one and maybe th
 INSERT INTO public.planet VALUES (10, 'Harry', 'Made up one and not real', false, true, 64, 335, 35, 10);
 INSERT INTO public.planet VALUES (11, 'Ceres', 'The tempting and alluring one', true, false, 71, 37, 2, 17);
 INSERT INTO public.planet VALUES (12, 'Charon', 'Might be a moon or maybe even galaxy', false, false, 85, 61, 2, 19);
+
+--
+-- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.star VALUES (1, 'Betelguse', 'The light shining', true, false, 863, 74, 6, 1);
+INSERT INTO public.star VALUES (2, 'Rigel', 'Very pretty', false, false, 636, 96, 802, 2);
+INSERT INTO public.star VALUES (3, 'Sirius', 'This the one', true, true, 67, 743, 72, 3);
+INSERT INTO public.star VALUES (4, 'Pollux', 'The bright one', true, false, 6322, 246, 9, 4);
+INSERT INTO public.star VALUES (5, 'Deneb', 'Might be fake', false, false, 64, 655, 96, 5);
+INSERT INTO public.star VALUES (6, 'Antares', 'The orange one', true, true, 9645, 96, 4, 6);
+INSERT INTO public.star VALUES (7, 'Vega', 'The famous one', true, false, 957, 76, 83, 7);
