@@ -496,7 +496,6 @@ INSERT INTO public.star VALUES (1, 'Betelguse', 'Not the movie but the real thin
 INSERT INTO public.star VALUES (2, 'Rigel', 'Bright and very pretty', false, true, 64, 78, 723, 5);
 INSERT INTO public.star VALUES (3, 'Sirius', 'The one and only', true, true, 67, 23, 32, 5);
 INSERT INTO public.star VALUES (4, 'Pollux', 'Very pretty and fair', true, false, 622, 46, 9, 6);
-
-INSERT INTO public.star VALUES (5, 'Deneb', 'Might be fake', false, false, 64, 655, 96, 5);
-INSERT INTO public.star VALUES (6, 'Antares', 'The orange one', true, true, 9645, 96, 4, 6);
-INSERT INTO public.star VALUES (7, 'Vega', 'The famous one', true, false, 957, 76, 83, 7);
+INSERT INTO public.star VALUES (5, 'Deneb', 'Might be fake or this might be the real onw', true, false, 65, 23, 69, 3);
+INSERT INTO public.star VALUES (6, 'Antares', 'The mighty and organe one', false,true, 875, 39, 8, 8);
+INSERT INTO public.star VALUES (7, 'Vega', 'The famous one and well known one', false, true, 421, 65, 38, 7);
