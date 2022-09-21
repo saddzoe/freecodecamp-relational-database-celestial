@@ -499,3 +499,42 @@ INSERT INTO public.star VALUES (4, 'Pollux', 'Very pretty and fair', true, false
 INSERT INTO public.star VALUES (5, 'Deneb', 'Might be fake or this might be the real onw', true, false, 65, 23, 69, 3);
 INSERT INTO public.star VALUES (6, 'Antares', 'The mighty and organe one', false,true, 875, 39, 8, 8);
 INSERT INTO public.star VALUES (7, 'Vega', 'The famous one and well known one', false, true, 421, 65, 38, 7);
+
+--
+-- Name: galaxy_foreign_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.galaxy_foreign_id_seq', 40, true);
+
+
+--
+-- Name: galaxy_galaxy_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 40, true);
+
+
+--
+-- Name: meteor_foreign_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.meteor_foreign_id_seq', 4, true);
+
+
+--
+-- Name: meteor_meteor_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.meteor_meteor_id_seq', 4, true);
+
+
+--
+-- Name: moon_foreign_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.moon_foreign_id_seq', 60, true);
+
+
+--
+-- Name: moon_moon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
