@@ -568,3 +568,26 @@ SELECT pg_catalog.setval('public.star_foreign_id_seq', 8, true);
 --
 
 SELECT pg_catalog.setval('public.star_star_id_seq', 8, true);
+
+--
+-- Name: galaxy galaxy_age_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.galaxy
+    ADD CONSTRAINT galaxy_age_key UNIQUE (age);
+
+
+--
+-- Name: galaxy galaxy_f_id_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.galaxy
+    ADD CONSTRAINT galaxy_f_id_key UNIQUE (f_id);
+
+
+--
+-- Name: galaxy galaxy_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.galaxy
+    ADD CONSTRAINT galaxy_pkey PRIMARY KEY (galaxy_id);
