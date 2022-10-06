@@ -591,3 +591,26 @@ ALTER TABLE ONLY public.galaxy
 
 ALTER TABLE ONLY public.galaxy
     ADD CONSTRAINT galaxy_pkey PRIMARY KEY (galaxy_id);
+    
+--
+-- Name: meteor meteor_age_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.meteor
+    ADD CONSTRAINT meteor_age_key UNIQUE (age);
+
+
+--
+-- Name: meteor meteor_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.meteor
+    ADD CONSTRAINT meteor_pkey PRIMARY KEY (meteor_id);
+
+
+--
+-- Name: moon moon_age_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.moon
+    ADD CONSTRAINT moon_age_key UNIQUE (age);
