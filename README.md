@@ -614,3 +614,34 @@ ALTER TABLE ONLY public.meteor
 
 ALTER TABLE ONLY public.moon
     ADD CONSTRAINT moon_age_key UNIQUE (age);
+    
+--
+-- Name: moon moon_f_id_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.moon
+    ADD CONSTRAINT moon_f_id_key UNIQUE (f_id);
+
+
+--
+-- Name: moon moon_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.moon
+    ADD CONSTRAINT moon_pkey PRIMARY KEY (moon_id);
+
+
+--
+-- Name: planet planet_age_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.planet
+    ADD CONSTRAINT planet_age_key UNIQUE (age);
+
+
+--
+-- Name: planet planet_f_id_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.planet
+    ADD CONSTRAINT planet_f_id_key UNIQUE (f_id);
