@@ -731,3 +731,17 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: courses; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.courses (
+    course_id integer NOT NULL,
+    course character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.courses OWNER TO freecodecamp;
